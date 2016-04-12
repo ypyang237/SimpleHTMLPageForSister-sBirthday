@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+body {
+  max-width: 100%;
+  background-image: url("/image/emmawall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Permanent Marker', cursive;
+  color: #cccc00; }
+
+#container {
+  max-width: 100%;
+  display: flex;
+  font-family: 'Permanent Marker', cursive;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around; }
+  #container .content {
+    max-width: 80%;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: rgba(255, 251, 230, 0.6);
+    border: 1px;
+    border-radius: 75px; }
+  #container .box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; }
+    #container .box #chickPow {
+      max-width: 10%;
+      max-height: 80px;
+      padding: 80px;
+      background-color: rgba(255, 251, 230, 0.6);
+      border: 1px;
+      border-radius: 20px; }
+      #container .box #chickPow:hover {
+        background-color: black;
+        color: white;
+        font-size: 30px; }
+    #container .box #emmaPower {
+      height: 400px;
+      width: 400px;
+      border: 1px;
+      border-radius: 20px; }
+    #container .box #emmaSleeping {
+      height: 350px;
+      width: 300px;
+      border: 1px;
+      border-radius: 20px; }
+    #container .box #babysis {
+      display: flex;
+      flex-direction: column;
+      max-width: 40%;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 40px;
+      background-color: rgba(255, 251, 230, 0.6);
+      border: 1px;
+      border-radius: 75px; }
+      #container .box #babysis #btn {
+        font-size: 15px;
+        font-family: 'Permanent Marker', cursive; }
